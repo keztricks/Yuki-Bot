@@ -15,7 +15,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content == 'yo' and message.author.id == 288370172744695809:
+    if message.content == 'yo' and message.author.id == '288370172744695809':
         msg = '{0.author.mention} yo'.format(message)
         await client.send_message(message.channel, msg)
         msg = '{0.author.mention} What time we playing?'.format(message)
